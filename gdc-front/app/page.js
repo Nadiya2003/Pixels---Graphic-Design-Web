@@ -33,9 +33,9 @@ export default function Home() {
 
       <motion.div
         initial={{ opacity: 0 }}
-        animate={{ 
-          opacity: isWelcomeActive ? 0 : 1, 
-          transition: { duration: 1.5, ease: [0.22, 1, 0.36, 1], delay: 0.5 } 
+        animate={{
+          opacity: isWelcomeActive ? 0 : 1,
+          transition: { duration: 1.5, ease: [0.22, 1, 0.36, 1], delay: 0.5 }
         }}
         className={isWelcomeActive ? 'pointer-events-none' : ''}
       >
