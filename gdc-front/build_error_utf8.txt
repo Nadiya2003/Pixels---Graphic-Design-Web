@@ -1,0 +1,766 @@
+﻿
+> gdc-front@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.2.1 (Turbopack)
+
+  Creating an optimized production build ...
+node.exe : Error: Cannot 
+apply unknown utility class 
+`hover:border-neon-blue/50`
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo          : 
+    NotSpecified: (Error: Ca  
+  nnot a...r-neon-blue/50`:   
+ String) [], RemoteExcepti    
+on
+    + FullyQualifiedErrorId : 
+    NativeCommandError
+ 
+    [2m[at 
+onInvalidCandidate 
+(E:\Projects\@ ROTRACT 
+CLUB\DM Works\@ Graphic 
+Design\Web Portal\gdc-front\no
+de_modules\tailwindcss\dist\li
+b.js:21:1511)][0m
+    [2m[at Ee (E:\Projects\@ 
+ROTRACT CLUB\DM Works\@ 
+Graphic Design\Web Portal\gdc-
+front\node_modules\tailwindcss
+\dist\lib.js:16:37066)][0m
+    [2m[at E:\Projects\@ 
+ROTRACT CLUB\DM Works\@ 
+Graphic Design\Web Portal\gdc-
+front\node_modules\tailwindcss
+\dist\lib.js:21:355][0m
+    [2m[at _r (E:\Projects\@ 
+ROTRACT CLUB\DM Works\@ 
+Graphic Design\Web Portal\gdc-
+front\node_modules\tailwindcss
+\dist\lib.js:3:1733)][0m
+    [2m[at I (E:\Projects\@ 
+ROTRACT CLUB\DM Works\@ 
+Graphic Design\Web Portal\gdc-
+front\node_modules\tailwindcss
+\dist\lib.js:3:1377)][0m
+    [2m[at Te (E:\Projects\@ 
+ROTRACT CLUB\DM Works\@ 
+Graphic Design\Web Portal\gdc-
+front\node_modules\tailwindcss
+\dist\lib.js:21:172)][0m
+    [2m[at mn (E:\Projects\@ 
+ROTRACT CLUB\DM Works\@ 
+Graphic Design\Web Portal\gdc-
+front\node_modules\tailwindcss
+\dist\lib.js:38:294)][0m
+    [2m[at async gn 
+(E:\Projects\@ ROTRACT 
+CLUB\DM Works\@ Graphic 
+Design\Web Portal\gdc-front\no
+de_modules\tailwindcss\dist\li
+b.js:38:631)][0m
+    [2m[at async Xr 
+(E:\Projects\@ ROTRACT 
+CLUB\DM Works\@ Graphic 
+Design\Web Portal\gdc-front\no
+de_modules\@tailwindcss\node\d
+ist\index.js:10:3416)][0m
+    [2m[at async N 
+(E:\Projects\@ ROTRACT 
+CLUB\DM Works\@ Graphic 
+Design\Web Portal\gdc-front\no
+de_modules\@tailwindcss\postcs
+s\dist\index.js:10:3979)][0m
+
+> Build error occurred
+Error: Turbopack build failed 
+with 11 errors:
+./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: 
+E:\Projects\@ ROTRACT CLUB\DM 
+Works\@ Graphic Design\Web Por
+tal\gdc-front\app\globals.css:
+1:1: Cannot apply unknown 
+utility class 
+`hover:border-neon-blue/50`
+    at Input.error (node_modul
+es/postcss/lib/input.js:135:16
+) [E:\Projects\@ ROTRACT 
+CLUB\DM Works\@ Graphic 
+Design\Web Portal\gdc-front\.n
+ext\build\chunks\node_modules_
+13sb.px._.js:4651:22]
+    at error (node_modules/pos
+tcss/lib/node.js:146:32) 
+[E:\Projects\@ ROTRACT 
+CLUB\DM Works\@ Graphic 
+Design\Web Portal\gdc-front\.n
+ext\build\chunks\node_modules_
+13sb.px._.js:928:38]
+    [at Object.Once 
+(E:\Projects\@ ROTRACT 
+CLUB\DM Works\@ Graphic 
+Design\Web Portal\gdc-front\no
+de_modules\@tailwindcss\postcs
+s\dist\index.js:10:6913)]
+    at async 
+LazyResult.runAsync (node_modu
+les/postcss/lib/lazy-result.js
+:293:11) [E:\Projects\@ 
+ROTRACT CLUB\DM Works\@ 
+Graphic Design\Web Portal\gdc-
+front\.next\build\chunks\node_
+modules_13sb.px._.js:6214:21]
+    at async transform (turbop
+ack:///[turbopack-node]/transf
+orms/postcss.ts:70:34) 
+[E:\Projects\@ ROTRACT 
+CLUB\DM Works\@ Graphic 
+Design\Web Portal\gdc-front\.n
+ext\build\chunks\[root-of-the-
+server]__0d-m0h0._.js:146:36]
+    at async run (turbopack://
+/[turbopack-node]/child_proces
+s/evaluate.ts:89:23) 
+[E:\Projects\@ ROTRACT 
+CLUB\DM Works\@ Graphic 
+Design\Web Portal\gdc-front\.n
+ext\build\chunks\[root-of-the-
+server]__0ubbtyl._.js:443:31]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client 
+Component Browser]
+    ./app/layout.js [Server 
+Component]
+
+
+./app/components/FooterSection
+.js:4:1
+Export Facebook doesn't exist 
+in target module
+  [90m 2 |[0m
+  [90m 3 |[0m 
+[36mimport[0m 
+[33mReact[0m [36mfrom[0m 
+[32m'react'[0m;
+[31m[1m>[0m [90m 4 |[0m 
+[36mimport[0m {
+  [90m   |[0m 
+[31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m  
+ [33mInstagram[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m  
+ [33mTwitter[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m  
+ [33mFacebook[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m  
+ [33mLinkedin[0m
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m 
+} [36mfrom[0m 
+[32m'lucide-react'[0m;
+  [90m   |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^[0m
+  [90m10 |[0m
+  [90m11 |[0m 
+[36mexport[0m 
+[36mfunction[0m 
+[33mFooterSection[0m() {
+  [90m12 |[0m   
+[36mreturn[0m (
+
+The export Facebook was not 
+found in module [project]/node
+_modules/lucide-react/dist/esm
+/lucide-react.js [app-client] 
+(ecmascript).
+Did you mean to import 
+Webhook?
+All exports of the module are 
+statically known (It doesn't 
+have dynamic exports). So 
+it's known statically that 
+the requested export doesn't 
+exist.
+
+Import trace:
+  Server Component:
+    ./app/components/FooterSec
+tion.js
+    ./app/page.js
+
+
+./app/components/FooterSection
+.js:4:1
+Export Facebook doesn't exist 
+in target module
+  [90m 2 |[0m
+  [90m 3 |[0m 
+[36mimport[0m 
+[33mReact[0m [36mfrom[0m 
+[32m'react'[0m;
+[31m[1m>[0m [90m 4 |[0m 
+[36mimport[0m {
+  [90m   |[0m 
+[31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m  
+ [33mInstagram[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m  
+ [33mTwitter[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m  
+ [33mFacebook[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m  
+ [33mLinkedin[0m
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m 
+} [36mfrom[0m 
+[32m'lucide-react'[0m;
+  [90m   |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^[0m
+  [90m10 |[0m
+  [90m11 |[0m 
+[36mexport[0m 
+[36mfunction[0m 
+[33mFooterSection[0m() {
+  [90m12 |[0m   
+[36mreturn[0m (
+
+The export Facebook was not 
+found in module [project]/node
+_modules/lucide-react/dist/esm
+/lucide-react.js [app-ssr] 
+(ecmascript).
+Did you mean to import 
+Webhook?
+All exports of the module are 
+statically known (It doesn't 
+have dynamic exports). So 
+it's known statically that 
+the requested export doesn't 
+exist.
+
+Import trace:
+  Server Component:
+    ./app/components/FooterSec
+tion.js
+    ./app/page.js
+
+
+./app/components/FooterSection
+.js:4:1
+Export Instagram doesn't 
+exist in target module
+  [90m 2 |[0m
+  [90m 3 |[0m 
+[36mimport[0m 
+[33mReact[0m [36mfrom[0m 
+[32m'react'[0m;
+[31m[1m>[0m [90m 4 |[0m 
+[36mimport[0m {
+  [90m   |[0m 
+[31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m  
+ [33mInstagram[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m  
+ [33mTwitter[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m  
+ [33mFacebook[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m  
+ [33mLinkedin[0m
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m 
+} [36mfrom[0m 
+[32m'lucide-react'[0m;
+  [90m   |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^[0m
+  [90m10 |[0m
+  [90m11 |[0m 
+[36mexport[0m 
+[36mfunction[0m 
+[33mFooterSection[0m() {
+  [90m12 |[0m   
+[36mreturn[0m (
+
+The export Instagram was not 
+found in module [project]/node
+_modules/lucide-react/dist/esm
+/lucide-react.js [app-client] 
+(ecmascript).
+Did you mean to import Star?
+All exports of the module are 
+statically known (It doesn't 
+have dynamic exports). So 
+it's known statically that 
+the requested export doesn't 
+exist.
+
+Import trace:
+  Server Component:
+    ./app/components/FooterSec
+tion.js
+    ./app/page.js
+
+
+./app/components/FooterSection
+.js:4:1
+Export Instagram doesn't 
+exist in target module
+  [90m 2 |[0m
+  [90m 3 |[0m 
+[36mimport[0m 
+[33mReact[0m [36mfrom[0m 
+[32m'react'[0m;
+[31m[1m>[0m [90m 4 |[0m 
+[36mimport[0m {
+  [90m   |[0m 
+[31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m  
+ [33mInstagram[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m  
+ [33mTwitter[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m  
+ [33mFacebook[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m  
+ [33mLinkedin[0m
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m 
+} [36mfrom[0m 
+[32m'lucide-react'[0m;
+  [90m   |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^[0m
+  [90m10 |[0m
+  [90m11 |[0m 
+[36mexport[0m 
+[36mfunction[0m 
+[33mFooterSection[0m() {
+  [90m12 |[0m   
+[36mreturn[0m (
+
+The export Instagram was not 
+found in module [project]/node
+_modules/lucide-react/dist/esm
+/lucide-react.js [app-ssr] 
+(ecmascript).
+Did you mean to import Star?
+All exports of the module are 
+statically known (It doesn't 
+have dynamic exports). So 
+it's known statically that 
+the requested export doesn't 
+exist.
+
+Import trace:
+  Server Component:
+    ./app/components/FooterSec
+tion.js
+    ./app/page.js
+
+
+./app/components/FooterSection
+.js:4:1
+Export Linkedin doesn't exist 
+in target module
+  [90m 2 |[0m
+  [90m 3 |[0m 
+[36mimport[0m 
+[33mReact[0m [36mfrom[0m 
+[32m'react'[0m;
+[31m[1m>[0m [90m 4 |[0m 
+[36mimport[0m {
+  [90m   |[0m 
+[31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m  
+ [33mInstagram[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m  
+ [33mTwitter[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m  
+ [33mFacebook[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m  
+ [33mLinkedin[0m
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m 
+} [36mfrom[0m 
+[32m'lucide-react'[0m;
+  [90m   |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^[0m
+  [90m10 |[0m
+  [90m11 |[0m 
+[36mexport[0m 
+[36mfunction[0m 
+[33mFooterSection[0m() {
+  [90m12 |[0m   
+[36mreturn[0m (
+
+The export Linkedin was not 
+found in module [project]/node
+_modules/lucide-react/dist/esm
+/lucide-react.js [app-client] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are 
+statically known (It doesn't 
+have dynamic exports). So 
+it's known statically that 
+the requested export doesn't 
+exist.
+
+Import trace:
+  Server Component:
+    ./app/components/FooterSec
+tion.js
+    ./app/page.js
+
+
+./app/components/FooterSection
+.js:4:1
+Export Linkedin doesn't exist 
+in target module
+  [90m 2 |[0m
+  [90m 3 |[0m 
+[36mimport[0m 
+[33mReact[0m [36mfrom[0m 
+[32m'react'[0m;
+[31m[1m>[0m [90m 4 |[0m 
+[36mimport[0m {
+  [90m   |[0m 
+[31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m  
+ [33mInstagram[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m  
+ [33mTwitter[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m  
+ [33mFacebook[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m  
+ [33mLinkedin[0m
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m 
+} [36mfrom[0m 
+[32m'lucide-react'[0m;
+  [90m   |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^[0m
+  [90m10 |[0m
+  [90m11 |[0m 
+[36mexport[0m 
+[36mfunction[0m 
+[33mFooterSection[0m() {
+  [90m12 |[0m   
+[36mreturn[0m (
+
+The export Linkedin was not 
+found in module [project]/node
+_modules/lucide-react/dist/esm
+/lucide-react.js [app-ssr] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are 
+statically known (It doesn't 
+have dynamic exports). So 
+it's known statically that 
+the requested export doesn't 
+exist.
+
+Import trace:
+  Server Component:
+    ./app/components/FooterSec
+tion.js
+    ./app/page.js
+
+
+./app/components/TeamSection.j
+s:5:1
+Export Linkedin doesn't exist 
+in target module
+  [90m3 |[0m 
+[36mimport[0m 
+[33mReact[0m [36mfrom[0m 
+[32m'react'[0m;
+  [90m4 |[0m 
+[36mimport[0m { motion } 
+[36mfrom[0m 
+[32m'framer-motion'[0m;
+[31m[1m>[0m [90m5 |[0m 
+[36mimport[0m { 
+[33mMail[0m, 
+[33mLinkedin[0m } 
+[36mfrom[0m 
+[32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [36mconst[0m 
+teamMembers = [
+  [90m8 |[0m   {
+
+The export Linkedin was not 
+found in module [project]/node
+_modules/lucide-react/dist/esm
+/lucide-react.js [app-client] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are 
+statically known (It doesn't 
+have dynamic exports). So 
+it's known statically that 
+the requested export doesn't 
+exist.
+
+Import trace:
+  Server Component:
+    ./app/components/TeamSecti
+on.js
+    ./app/page.js
+
+
+./app/components/TeamSection.j
+s:5:1
+Export Linkedin doesn't exist 
+in target module
+  [90m3 |[0m 
+[36mimport[0m 
+[33mReact[0m [36mfrom[0m 
+[32m'react'[0m;
+  [90m4 |[0m 
+[36mimport[0m { motion } 
+[36mfrom[0m 
+[32m'framer-motion'[0m;
+[31m[1m>[0m [90m5 |[0m 
+[36mimport[0m { 
+[33mMail[0m, 
+[33mLinkedin[0m } 
+[36mfrom[0m 
+[32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [36mconst[0m 
+teamMembers = [
+  [90m8 |[0m   {
+
+The export Linkedin was not 
+found in module [project]/node
+_modules/lucide-react/dist/esm
+/lucide-react.js [app-ssr] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are 
+statically known (It doesn't 
+have dynamic exports). So 
+it's known statically that 
+the requested export doesn't 
+exist.
+
+Import trace:
+  Server Component:
+    ./app/components/TeamSecti
+on.js
+    ./app/page.js
+
+
+./app/components/FooterSection
+.js:4:1
+Export Twitter doesn't exist 
+in target module
+  [90m 2 |[0m
+  [90m 3 |[0m 
+[36mimport[0m 
+[33mReact[0m [36mfrom[0m 
+[32m'react'[0m;
+[31m[1m>[0m [90m 4 |[0m 
+[36mimport[0m {
+  [90m   |[0m 
+[31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m  
+ [33mInstagram[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m  
+ [33mTwitter[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m  
+ [33mFacebook[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m  
+ [33mLinkedin[0m
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m 
+} [36mfrom[0m 
+[32m'lucide-react'[0m;
+  [90m   |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^[0m
+  [90m10 |[0m
+  [90m11 |[0m 
+[36mexport[0m 
+[36mfunction[0m 
+[33mFooterSection[0m() {
+  [90m12 |[0m   
+[36mreturn[0m (
+
+The export Twitter was not 
+found in module [project]/node
+_modules/lucide-react/dist/esm
+/lucide-react.js [app-client] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are 
+statically known (It doesn't 
+have dynamic exports). So 
+it's known statically that 
+the requested export doesn't 
+exist.
+
+Import trace:
+  Server Component:
+    ./app/components/FooterSec
+tion.js
+    ./app/page.js
+
+
+./app/components/FooterSection
+.js:4:1
+Export Twitter doesn't exist 
+in target module
+  [90m 2 |[0m
+  [90m 3 |[0m 
+[36mimport[0m 
+[33mReact[0m [36mfrom[0m 
+[32m'react'[0m;
+[31m[1m>[0m [90m 4 |[0m 
+[36mimport[0m {
+  [90m   |[0m 
+[31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 5 |[0m  
+ [33mInstagram[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 6 |[0m  
+ [33mTwitter[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 7 |[0m  
+ [33mFacebook[0m,
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^^[0m
+[31m[1m>[0m [90m 8 |[0m  
+ [33mLinkedin[0m
+  [90m   |[0m 
+[31m[1m^^^^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m 
+} [36mfrom[0m 
+[32m'lucide-react'[0m;
+  [90m   |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^[0m
+  [90m10 |[0m
+  [90m11 |[0m 
+[36mexport[0m 
+[36mfunction[0m 
+[33mFooterSection[0m() {
+  [90m12 |[0m   
+[36mreturn[0m (
+
+The export Twitter was not 
+found in module [project]/node
+_modules/lucide-react/dist/esm
+/lucide-react.js [app-ssr] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are 
+statically known (It doesn't 
+have dynamic exports). So 
+it's known statically that 
+the requested export doesn't 
+exist.
+
+Import trace:
+  Server Component:
+    ./app/components/FooterSec
+tion.js
+    ./app/page.js
+
+
+    at async transform (turbop
+ack:///[turbopack-node]/transf
+orms/postcss.ts:70:34) 
+[E:\Projects\@ ROTRACT 
+CLUB\DM Works\@ Graphic 
+Design\Web Portal\gdc-front\.n
+ext\build\chunks\[root-of-the-
+server]__0d-m0h0._.js:146:36])
+    at async run (turbopack://
+/[turbopack-node]/child_proces
+s/evaluate.ts:89:23) 
+[E:\Projects\@ ROTRACT 
+CLUB\DM Works\@ Graphic 
+Design\Web Portal\gdc-front\.n
+ext\build\chunks\[root-of-the-
+server]__0ubbtyl._.js:443:31])
+    at <unknown> (./app/compon
+ents/FooterSection.js:4:1)
+    ... collapsed 5 duplicate 
+lines matching above 1 lines 
+5 times...
+    at <unknown> (./app/compon
+ents/TeamSection.js:5:1)
+    at <unknown> (./app/compon
+ents/TeamSection.js:5:1)
+    at <unknown> (./app/compon
+ents/FooterSection.js:4:1)
+    at <unknown> (./app/compon
+ents/FooterSection.js:4:1)
